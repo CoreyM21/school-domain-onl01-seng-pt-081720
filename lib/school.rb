@@ -4,7 +4,6 @@ class School
   attr_reader :school
   
   def initialize(school_name)
-    array = []
     @school = school_name
     @roster = {}
   end
